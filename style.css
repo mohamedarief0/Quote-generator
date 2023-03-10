@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins&display=swap');
+body{
+    background-image: linear-gradient(to right, #c5c5c5 0%, #e3e3e3 100%);
+}
+.background-color{
+    align-items: center;
+    margin: 60px auto;
+    max-width: 750px;
+}
+.main-container{
+    margin: 60px auto;
+    max-width: 750px;
+    color: rgb(26, 25, 25);
+    border: 5px solid black;
+    box-shadow: 0 3px 20px rgb(87, 87, 87);
+    border-radius: 20px;
+    padding: 20px;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+}
+.author{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 17px;
+    font-weight: bold;
+}
+.btn {
+    background: #ff8c8c;
+    background-image: -webkit-linear-gradient(top, #ff8c8c, #b82b2b);
+    background-image: -moz-linear-gradient(top, #ff8c8c, #b82b2b);
+    background-image: -ms-linear-gradient(top, #ff8c8c, #b82b2b);
+    background-image: -o-linear-gradient(top, #ff8c8c, #b82b2b);
+    background-image: linear-gradient(to bottom, #ff8c8c, #b82b2b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+  
